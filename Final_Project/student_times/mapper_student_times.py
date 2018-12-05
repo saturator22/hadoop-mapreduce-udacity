@@ -1,10 +1,8 @@
 #!/usr/bin/python
 import sys
 import csv
-import re
 
 from datetime import datetime
-
 
 def mapper():
     reader = csv.reader(sys.stdin, delimiter='\t')
